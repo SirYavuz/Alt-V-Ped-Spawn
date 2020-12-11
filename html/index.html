@@ -1,0 +1,79 @@
+<!-- SirYavuz#0001 -->
+<!-- SirYavuz#0001 -->
+<!-- SirYavuz#0001 -->
+<!-- SirYavuz#0001 -->
+
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<html>
+
+
+<head>
+    <!-- <div class="giris">
+        Spawn Konumu Seçin
+    </div> -->
+
+</head>
+
+<body>
+    <div id="app" class="main">
+        <form id="pedid" ">
+            <label for="pedname " class="baslik ">Ped Spawnla</label><br>
+            <input class="inputclass " type="text " id="pedname "><br>
+
+            <button class="buton " type="submit " onclick="hesapla() "> Spawnla </button>
+        </form> 
+        <div class="pedsite ">
+            https://wiki.rage.mp/index.php?title=Peds
+        </div>
+
+    </div>
+</body>
+<script>
+  
+
+    function hesapla() {
+        const deger = document.getElementById("pedname ").value;
+        console.log(deger)
+        alt.emit('ped1', deger);
+    }
+
+
+
+    function deneme() {
+        console.log()
+    }
+
+    function konum1() {
+        console.log('html');
+        let log = 'sa';
+        alt.emit('konum1');
+    }
+
+
+    if ('alt' in window) {
+        let selam = 'selamqe';
+        alt.emit('konum:try', selam);
+
+    }
+
+    function openNav() {
+        document.getElementById("app ").style.visibility = "visible ";
+    }
+
+    function closeNav() {
+        document.getElementById("app ").style.visibility = "hidden ";
+    }
+
+
+    document.getElementById('app', function() {
+        document.getElementById("app ").style.visibility = "visible ";
+    })
+</script>
+
+</html>
+
+<!-- SirYavuz#0001 -->
+<!-- SirYavuz#0001 -->
+<!-- SirYavuz#0001 -->
+<!-- SirYavuz#0001 -->

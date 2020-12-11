@@ -1,0 +1,30 @@
+.main {
+    margin-left: 45%;
+    margin-top: 12%;
+}
+
+.pedsite {
+    margin-top: 10px;
+    margin-left: -35px;
+    color: rgb(109, 211, 230);
+}
+
+.buton {
+    border-radius: 10px;
+    margin-top: 12px;
+    margin-left: 4.5%;
+    border: 2px solid rgb(109, 211, 230);
+    background-color: rgba(41, 41, 41, 0.815);
+    color: white;
+}
+
+.baslik {
+    margin-left: 4%;
+    color: rgb(109, 211, 230);
+}
+
+.inputclass {
+    border: 2px solid rgb(109, 211, 230);
+    background-color: rgba(41, 41, 41, 0.815);
+    border-radius: 5px;
+}
